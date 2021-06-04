@@ -12,4 +12,6 @@ A figura abaixo mostra os pontos em azul antes de aplicar o agrupamento com o al
 A figura abaixo demonstra o resultado dos clusters com cores diferentes.
 Entretanto, utilizando o algoritmo DBSCAN, não foi possível respeitar a restrição da distância de 0.8km entre os pontos.
 
+Why? O algoritmo DBSCAN não é adequado para densidade variável, como é o caso deste problema.
+
 ![image](https://user-images.githubusercontent.com/18504119/120853204-abc88480-c551-11eb-9d2c-efdbae99ff87.png)
