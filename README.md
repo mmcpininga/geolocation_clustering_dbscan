@@ -3,14 +3,16 @@ Geolocation Clustering using the DBSCAN Algorithm
 
 O problema consiste em agrupar os dados (coordenadas de latitude e longitude) com base na sua geolocalização e respeitando as restrições.
 
-Restrição: 1) Distância máxima de 0.8km entre os pontos e seu centróide.
+Restrição: 
+
+1) Distância máxima de 1.6km entre os pontos e seu centróide.
 
 A figura abaixo mostra os pontos em azul antes de aplicar o agrupamento com o algoritmo DBSCAN.
 
 ![image](https://user-images.githubusercontent.com/18504119/120047713-9e5c4900-bfeb-11eb-8fc3-3af8911081b7.png)
 
 A figura abaixo demonstra o resultado dos clusters com cores diferentes.
-Entretanto, utilizando o algoritmo DBSCAN, não foi possível respeitar a restrição da distância de 0.8km entre os pontos.
+Entretanto, utilizando o algoritmo DBSCAN, não foi possível respeitar a restrição da distância de 1.6km entre os pontos.
 
 Why? O algoritmo DBSCAN não é adequado para densidade variável, como é o caso deste problema.
 
